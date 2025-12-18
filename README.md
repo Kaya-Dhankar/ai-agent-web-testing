@@ -13,11 +13,10 @@ The system is designed to simplify automated testing by allowing users to descri
 - LangGraph (Agent workflow)
 - LangChain Community Toolkit
 - Playwright (Browser Automation)
-- Gradio (Optional UI)
 
 ---
 
-# 🏗 Project Structure
+## 🏗 Project Structure
 
 ai-agent-web-testing/
 │
