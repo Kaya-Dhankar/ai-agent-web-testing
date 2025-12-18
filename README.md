@@ -17,7 +17,7 @@ The system is designed to simplify automated testing by allowing users to descri
 
 ---
 
-## 🏗 Project Structure
+# 🏗 Project Structure
 
 ai-agent-web-testing/
 │
@@ -32,6 +32,7 @@ ai-agent-web-testing/
 ├── app.py                    # Main Flask application
 ├── requirements.txt          # Project dependencies
 └── .gitignore
+
 
 ---
 
