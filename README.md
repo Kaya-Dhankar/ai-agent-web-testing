@@ -17,19 +17,20 @@ The system is designed to simplify automated testing by allowing users to descri
 
 ---
 
-## 🏗️ Project Structure
+## 🏗 Project Structure
+
 ai-agent-web-testing/
 │
 ├── agent/
-│ ├── langgraph_agent.py # LangGraph agent configuration
-│ ├── parser.py # Natural language instruction parser
-│ └── init.py
+│   ├── __init__.py
+│   ├── langgraph_agent.py   # LangGraph agent configuration
+│   └── parser.py            # Natural language instruction parser
 │
 ├── templates/
-│ └── index.html # Flask-based UI
+│   └── index.html            # Flask-based UI
 │
-├── app.py # Main Flask application
-├── requirements.txt # Project dependencies
+├── app.py                    # Main Flask application
+├── requirements.txt          # Project dependencies
 └── .gitignore
 
 ---
