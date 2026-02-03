@@ -1,3 +1,4 @@
+
 def generate_report(steps, step_results, error):
     return {
         "summary": "Test executed successfully" if not error else "Test failed",

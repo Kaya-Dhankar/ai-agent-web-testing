@@ -33,10 +33,9 @@ def run_test():
 
         # Step 3: Execute steps safely
         try:
-            report, video = execute_steps(steps)
+            report = execute_steps(steps)
         except Exception as e:
             report = {"error": f"Execution failed: {str(e)}"}
-            video = None
 
         # Step 4: Save last report
         with open("reports/last_report.json", "w") as f:

@@ -1,3 +1,4 @@
+
 def generate_playwright_code(parsed_steps):
     lines = [
         "from playwright.sync_api import sync_playwright\n",

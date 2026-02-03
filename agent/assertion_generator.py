@@ -1,3 +1,4 @@
+
 def generate_assertions(expected_result):
     """
     Generates adaptive Playwright-compatible assertions
